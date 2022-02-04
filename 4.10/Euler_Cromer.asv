@@ -23,7 +23,7 @@ end
 [U, K] = osc_energy(u, v, omega); %calling the energy function
 
 plot(t, U+K, 'b-'); %sum of potential and kinetic energy plotted
-title('Euler-Cromer method, sum of energies')
+title('')
 xlabel('t');
 ylabel('U+K');
 
